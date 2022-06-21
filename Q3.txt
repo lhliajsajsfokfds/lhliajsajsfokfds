@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+ int main()
+ {
+     int a,v;
+     printf("Enter a number");
+     scanf("%d",&a);
+     v=a*a*a;
+     printf("volume of cubiod=%d",v);
+     getch();
+ }
